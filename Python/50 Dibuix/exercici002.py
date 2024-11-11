@@ -61,7 +61,7 @@ def app_draw():
     utils.draw_grid(pygame, screen, 50)
 
     # Resol aquí l'exercici
-    pass
+    pygame.draw.circle(screen, ORANGE, (200, 250), 100, 5)
 
     # Actualitzar el dibuix a la finestra
     pygame.display.update()
